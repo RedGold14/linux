@@ -1,0 +1,61 @@
+-------------------------------------
+USERS
+-------------------------------------
+
+Create user:
+
+useradd [name]
+adduser [name]
+
+-------------------------------------
+
+Delete user:
+
+userdel [name]
+deluser [name]
+
+-------------------------------------
+
+Rename user:
+
+usermod -l [new-name][old-name]
+
+-------------------------------------
+
+List all users:
+
+getent passwd
+cat /etc/passwd
+
+-------------------------------------
+GROUPS
+-------------------------------------
+
+Create group: 
+
+groupadd [name]
+addgroup [name]
+
+-------------------------------------
+
+Delete group:
+
+groupdel [name]
+
+-------------------------------------
+
+Rename group:
+
+groupmod -n [new-name][old-name]
+
+-------------------------------------
+
+List all groups:
+
+getent group 
+cat /etc/group
+
+-------------------------------------
+
+
+
