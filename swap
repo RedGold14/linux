@@ -1,1 +1,0 @@
-sudo fallocate -l 1G /swapfile
