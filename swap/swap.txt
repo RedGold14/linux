@@ -3,3 +3,11 @@ Swap is a portion of hard drive storage that has been set aside for the operatin
 The information written to disk will be significantly slower than information kept in RAM, but the operating system will prefer to keep running application data in memory and use swap for the older data. Overall, having swap space as a fallback for when your system’s RAM is depleted can be a good safety net against out-of-memory exceptions on systems with non-SSD storage available.
 
 It is possible to have multiple swap files or swap partitions, but generally one should be enough.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Подкачка — это часть хранилища на жестком диске, которая была отведена операционной системе для временного хранения данных, которые она больше не может хранить в ОЗУ. Это позволяет увеличить объем информации, которую ваш сервер может хранить в своей рабочей памяти, с некоторыми оговорками. Пространство подкачки на жестком диске будет использоваться в основном, когда в ОЗУ больше не будет достаточно места для хранения используемых данных приложения.
+
+Информация, записываемая на диск, будет выполняться значительно медленнее, чем информация, хранящаяся в ОЗУ, но операционная система предпочтет хранить данные приложений в памяти и использовать подкачку для более старых данных. В целом, наличие пространства подкачки в качестве запасного варианта, когда ОЗУ вашей системы исчерпано, может быть хорошей защитой от исключений нехватки памяти в системах с доступным хранилищем, отличным от SSD.
+
+Можно иметь несколько файлов подкачки или разделов подкачки, но обычно одного должно быть достаточно.
