@@ -1,1 +1,12 @@
+TCP information.
+State information.
 
+Dump socket statistics and display information in similar fashion to netstat.
+
+Display stats of the sockets:
+- PACKET
+- TCP
+- UDP
+- DCCP
+- RAW
+- Unix domain sockets
