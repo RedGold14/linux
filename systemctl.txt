@@ -1,0 +1,8 @@
+sudo
+
+systemctl daemon-reload
+
+systemctl start <service>
+systemctl stop <service>
+systemctl enable <service>
+systemctl status <service>
