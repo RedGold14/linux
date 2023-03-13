@@ -1,0 +1,22 @@
+List files or directories.
+
+ls <flags> <directory>
+
+List contents in currect directory:
+ls 
+
+List contents in currect another directory:
+ls <directory>
+
+List contents in root directory:
+ls /
+
+List contents in parent directory:
+ls ..
+
+List contents on two levels above:
+ls ../..
+
+List contents in the user's home directory:
+ls ~
+
