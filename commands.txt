@@ -1,0 +1,86 @@
+-------------------------------------
+USERS
+-------------------------------------
+
+Create user:
+
+useradd [name]
+adduser [name]
+
+-------------------------------------
+
+Delete user:
+
+userdel [name]
+deluser [name]
+
+-------------------------------------
+
+Rename user:
+
+usermod -l [new-name][old-name]
+
+-------------------------------------
+
+List all users:
+
+getent passwd
+cat /etc/passwd
+
+-------------------------------------
+GROUPS
+-------------------------------------
+
+Create group: 
+
+groupadd [name]
+addgroup [name]
+
+-------------------------------------
+
+Delete group:
+
+groupdel [name]
+
+-------------------------------------
+
+Rename group:
+
+groupmod -n [new-name][old-name]
+
+-------------------------------------
+
+List all groups:
+
+getent group 
+cat /etc/group
+
+-------------------------------------
+REMOVE
+-------------------------------------
+
+Remove file:
+
+unlink <file>
+Remove single file.
+
+rm <file>
+Remove single or multiple files.
+
+Wildcard (*) and regular expansions example:
+rm *.pdf
+
+Confirm each file before deleting it:
+rm -i <file>...<file>
+
+Remove files without prompting, even if the files are write-protected:
+rm -f <file>...<file>
+
+rm flags:
+-f - force
+-v - verbose
+If file is write-protected, you will be prompted for confirmation.
+
+Remofe
+
+
