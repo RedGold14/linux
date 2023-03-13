@@ -1,0 +1,3 @@
+ps aux | grep -i apt
+
+sudo kill <process-id>
