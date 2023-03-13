@@ -1,0 +1,18 @@
+1. Stop service:
+systemctl stop <service>
+
+2. Disable service:
+systemctl disable <service>
+
+3. Remove service:
+rm /etc/systemd/system/[servicename]
+rm /etc/systemd/system/[servicename] # and symlinks that might be related
+rm /usr/lib/systemd/system/[servicename] 
+rm /usr/lib/systemd/system/[servicename] # and symlinks that might be related
+
+4. Reload daemon:
+systemctl daemon-reload
+systemctl reset-failed
+
+5. Check /etc/init.d:
+Clean /etc/init.d, 
