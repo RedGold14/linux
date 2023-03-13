@@ -1,3 +1,9 @@
 ps aux | grep -i apt
 
+--------------------------------------------
+
+Processes can ignore some signals.
+If send SIGKILL it will not be able to ignore it (and neither catch it to do cleanups).
+
 sudo kill <process-id>
+sudo kill -9 <process-id>
