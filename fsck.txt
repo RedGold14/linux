@@ -1,0 +1,9 @@
+Fix the filesystem:
+fsck -f <filesystem>
+Example:
+sudo fsck -f /dev/loop17
+
+----------------------------------
+Get list of filesystems:
+fdisk -l
+findmnt
