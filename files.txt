@@ -1,0 +1,1 @@
+Every file is associated with an owning user or group.
