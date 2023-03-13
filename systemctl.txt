@@ -1,8 +1,10 @@
 sudo
 
 systemctl daemon-reload
+systemctl reset-failed
 
 systemctl start <service>
 systemctl stop <service>
 systemctl enable <service>
+systemctl disable <service>
 systemctl status <service>
